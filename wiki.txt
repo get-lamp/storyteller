@@ -1,0 +1,54 @@
+Composition:
+    items: Entity[]
+    quantities: int[]
+    total: int
+
+Organization:
+    founding:
+        date: Date,
+        founder: Person,
+        place: Place
+    leaders: Person[]
+    members:
+        etnics: Composition(Etnicity)
+        affiliation: Composition(Faction)
+
+
+topic = {
+    'thing': 'The Goons',
+    'facts': [('is', 'street gang')],
+}
+
+street_gang = {
+    'crew_etnics': {
+        'sirian': 10,
+        'altarian': 50,
+        'proximian': 30,
+        'solarian': 10
+    },
+    'foundation_date': '10 june 3024',
+    'founders': ['Guurgh Haroo'],
+    'leaders': ['Julius Zaasaer']
+
+}
+
+
+
+
+{The Goons} are a {mostly} {Sirio-Altarian} {street gang}
+First signs of organization date from 3024 B.F.
+They control a small section of the
+
+
+
+{The Bloods} are a {primarily} {African-American} {street gang}
+founded in {Los Angeles, California}.
+
+{The gang} is {widely} known for its {rivalry} with the Crips.
+It is identified by the red color worn by its members and by particular gang symbols, including distinctive hand signs.
+
+The Bloods comprise various subgroups known as "sets",
+among which significant differences exist,
+such as colors, clothing, operations, and political ideas that may be in open conflict with each other.
+
+Since the gang's creation, it has branched throughout the United States.
